@@ -1,3 +1,4 @@
+/* 
 export {};
 
 let stringArr: any[];
@@ -16,3 +17,14 @@ let valores: (string | number | boolean)[];
 valores = ["Curso", 10, true];
 
 console.log(valores);
+
+*/
+
+
+
+export{};
+
+let myTuple: [number, boolean ,string];
+myTuple=[3,true,"text"];
+
+console.log(myTuple);

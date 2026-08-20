@@ -1,10 +1,25 @@
-let stringArr;
+/*
+export {};
+
+let stringArr: any[];
+
 stringArr = ['Curso', 'TypeScript'];
-let genericArr;
+
+let genericArr: Array<string>;
+
 genericArr = ['Codi', 'Academy'];
+
 console.log(stringArr);
 console.log(genericArr);
-let valores;
+
+let valores: (string | number | boolean)[];
+
 valores = ["Curso", 10, true];
+
 console.log(valores);
+
+*/
+let myTuple;
+myTuple = [3, true, "text"];
+console.log(myTuple);
 export {};
