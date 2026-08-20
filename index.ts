@@ -33,10 +33,23 @@ console.log(myTuple);
 
 */
 
+/*
 export{};
 
-enum Colors {Red, Blue, Green};
+enum Colors {Red = 'red', Blue = 'blue', Green = 'green'};
 
 let color: Colors;
-color = Colors.Green;
-console.log(color);
+color = Colors.Red;
+console.log(color); 
+
+*/
+
+export{};
+
+function multiplica(x:number,y:number):
+number{
+    return x*y;
+}
+
+const resposta = multiplica(2,4);
+console.log(resposta)

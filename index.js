@@ -19,14 +19,9 @@ valores = ["Curso", 10, true];
 console.log(valores);
 
 */
-var Colors;
-(function (Colors) {
-    Colors[Colors["Red"] = 0] = "Red";
-    Colors[Colors["Blue"] = 1] = "Blue";
-    Colors[Colors["Green"] = 2] = "Green";
-})(Colors || (Colors = {}));
-;
-let color;
-color = Colors.Green;
-console.log(color);
+function multiplica(x, y) {
+    return x * y;
+}
+const resposta = multiplica(2, 4);
+console.log(resposta);
 export {};
