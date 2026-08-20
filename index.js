@@ -1,0 +1,10 @@
+let stringArr;
+stringArr = ['Curso', 'TypeScript'];
+let genericArr;
+genericArr = ['Codi', 'Academy'];
+console.log(stringArr);
+console.log(genericArr);
+let valores;
+valores = ["Curso", 10, true];
+console.log(valores);
+export {};
