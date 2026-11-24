@@ -27,16 +27,15 @@
 let myTuple;
 myTuple = [3, true, 'text'];
 console.log(myTuple);
+export {};
 //-----------------------------------------
 // ENUMS
 //-----------------------------------------
-var Colors;
-(function (Colors) {
-    Colors["Red"] = "red";
-    Colors["Blue"] = "blue";
-    Colors["Green"] = "green";
-})(Colors || (Colors = {}));
-let color;
-color = Colors.Green;
-console.log(color);
-export {};
+//enum Colors {
+//  Red = 'red',
+//Blue = 'blue',
+//Green = 'green'
+//}
+//let color: Colors
+//color = Colors.Green
+//console.log(color)

@@ -46,14 +46,19 @@ console.log(myTuple)
 // ENUMS
 //-----------------------------------------
 
-enum Colors {
-    Red = 'red',
-    Blue = 'blue',
-    Green = 'green'
-}
+//enum Colors {
+//  Red = 'red',
+//Blue = 'blue',
+//Green = 'green'
+//}
 
-let color: Colors
+//let color: Colors
 
-color = Colors.Green
+//color = Colors.Green
 
-console.log(color)
+//console.log(color)
+
+//-----------------------------------------
+//-----------------------------------------
+//-----------------------------------------
+//-----------------------------------------
