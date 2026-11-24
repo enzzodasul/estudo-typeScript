@@ -20,8 +20,19 @@ class Person implements iPerson {
         return `hello, my name is ${this.name} and my age is ${this.age}`
     }
 }
-let Bob = new Person('Bob', 25)
-console.log(Bob.aboutMe())
+
+class Func extends Person {
+    FuncNumber
+    constructor(name: string, age: number, FuncNumber: number) {
+        super(name, age)
+        this.FuncNumber = FuncNumber
+    }
+}
+
+let Bob = new Func('Bob', 25, 574)
+
+//let Bob = new Person('Bob', 25)
+//console.log(Bob.aboutMe())
 
 // INTERFACE:
 // Define um modelo com regras que uma classe precisa seguir.

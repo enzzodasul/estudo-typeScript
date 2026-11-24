@@ -13,9 +13,17 @@ class Person {
         return `hello, my name is ${this.name} and my age is ${this.age}`;
     }
 }
-let Bob = new Person('Bob', 25);
-console.log(Bob.aboutMe());
+class Func extends Person {
+    FuncNumber;
+    constructor(name, age, FuncNumber) {
+        super(name, age);
+        this.FuncNumber = FuncNumber;
+    }
+}
+let Bob = new Func('Bob', 25, 574);
 export {};
+//let Bob = new Person('Bob', 25)
+//console.log(Bob.aboutMe())
 // INTERFACE:
 // Define um modelo com regras que uma classe precisa seguir.
 // Neste exemplo, toda pessoa precisa ter name (string) e age (number).
