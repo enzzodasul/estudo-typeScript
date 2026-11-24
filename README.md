@@ -2,6 +2,24 @@
 
 Repositório dedicado aos estudos de **TypeScript**, reunindo conteúdos teóricos, exercícios práticos, desafios e projetos desenvolvidos durante o módulo do curso de formação Full Stack.
 
+# Compilar normalmente
+
+tsc ./index.ts
+
+# Compilar definindo a versão ECMAScript
+
+tsc --target ES2016 ./index.ts
+
+# Compilar monitorando alterações
+
+npx tsc index.ts --watch
+ou
+tsc --target ES2016 ./index.ts --watch
+
+# Exibir a versão do TypeScript
+
+tsc --version
+
 O objetivo é consolidar os fundamentos da linguagem, aprofundar conceitos de tipagem e orientação a objetos e desenvolver aplicações práticas, aplicando boas práticas de programação.
 
 ## 🎯 Objetivos
@@ -104,9 +122,9 @@ Esse comando gera o arquivo `tsconfig.json`, responsável por configurar o compo
 Crie um arquivo chamado `index.ts`:
 
 ```typescript
-const mensagem: string = 'Olá, TypeScript!';
+const mensagem: string = 'Olá, TypeScript!'
 
-console.log(mensagem);
+console.log(mensagem)
 ```
 
 Compile o arquivo utilizando:
