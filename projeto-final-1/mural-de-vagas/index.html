@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#170921">
+
+    <title>Mural de Vagas Dev</title>
+
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <main class="painel">
+
+        <div class="painel-topo">
+
+            <div class="titulo-area">
+                <span class="subtitulo">OPORTUNIDADES DE TECNOLOGIA</span>
+                <h1>Mural de Vagas Dev</h1>
+            </div>
+
+            <div id="contadores" class="contadores"></div>
+
+        </div>
+
+        <section class="controles">
+
+            <input
+                type="search"
+                id="busca"
+                placeholder="Buscar por título ou empresa..."
+                aria-label="Buscar vagas"
+            >
+
+            <select id="filtro-area" aria-label="Filtrar por área">
+                <option value="todas">Todas as áreas</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Data Science">Data Science</option>
+                <option value="FullStack">FullStack</option>
+            </select>
+
+            <select id="filtro-modalidade" aria-label="Filtrar por modalidade">
+                <option value="todas">Todas as modalidades</option>
+                <option value="remota">Remota</option>
+                <option value="presencial">Presencial</option>
+                <option value="híbrida">Híbrida</option>
+            </select>
+
+            <label class="favoritos-filtro">
+                <input type="checkbox" id="so-favoritos">
+                <span>★ Só favoritos</span>
+            </label>
+
+        </section>
+
+        <p id="status">Carregando vagas...</p>
+
+        <section id="lista" aria-label="Lista de vagas"></section>
+
+        <footer>
+            <span> Mural de Vagas Dev</span>
+            <span>Desenvolvido com TypeScript</span>
+        </footer>
+
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "titulo": "Dev Frontend Júnior",
+        "empresa": "Falaê",
+        "area": "Frontend",
+        "modalidade": "remota",
+        "salario": 3200,
+        "publicadaEm": "2026-11-23"
+    },
+    {
+        "id": 2,
+        "titulo": "Estágio em React",
+        "empresa": "BraZip",
+        "area": "Frontend",
+        "modalidade": "híbrida",
+        "salario": 1800,
+        "publicadaEm": "2026-11-21"
+    },
+    {
+        "id": 3,
+        "titulo": "Dev Frontend Vue",
+        "empresa": "ecoPortal",
+        "area": "Frontend",
+        "modalidade": "remota",
+        "publicadaEm": "2026-11-16"
+    },
+    {
+        "id": 4,
+        "titulo": "Dev Backend Node.js",
+        "empresa": "PagBank",
+        "area": "Backend",
+        "modalidade": "remota",
+        "salario": 4500,
+        "publicadaEm": "2026-11-25"
+    },
+    {
+        "id": 5,
+        "titulo": "Estágio Backend Java",
+        "empresa": "Embrapa",
+        "area": "Backend",
+        "modalidade": "presencial",
+        "salario": 1600,
+        "publicadaEm": "2026-11-14"
+    },
+    {
+        "id": 6,
+        "titulo": "Dev Backend Python",
+        "empresa": "V",
+        "area": "Backend",
+        "modalidade": "híbrida",
+        "salario": 3800,
+        "publicadaEm": "2026-11-20"
+    },
+    {
+        "id": 7,
+        "titulo": "Analista de Dados Júnior",
+        "empresa": "Embrapa",
+        "area": "Data Science",
+        "modalidade": "híbrida",
+        "salario": 4000,
+        "publicadaEm": "2026-11-19"
+    },
+    {
+        "id": 8,
+        "titulo": "Estágio em Python e Dados",
+        "empresa": "Canny",
+        "area": "Data Science",
+        "modalidade": "remota",
+        "publicadaEm": "2026-11-26"
+    },
+    {
+        "id": 9,
+        "titulo": "Cientista de Dados Trainee",
+        "empresa": "Falaê",
+        "area": "Data Science",
+        "modalidade": "remota",
+        "salario": 2900,
+        "publicadaEm": "2026-11-22"
+    },
+    {
+        "id": 10,
+        "titulo": "Dev FullStack Júnior",
+        "empresa": "Magic Software",
+        "area": "FullStack",
+        "modalidade": "presencial",
+        "salario": 3500,
+        "publicadaEm": "2026-11-22"
+    },
+    {
+        "id": 11,
+        "titulo": "Dev FullStack TypeScript",
+        "empresa": "Flarie",
+        "area": "FullStack",
+        "modalidade": "remota",
+        "salario": 5200,
+        "publicadaEm": "2026-11-24"
+    },
+    {
+        "id": 12,
+        "titulo": "Suporte e Monitoria Dev",
+        "empresa": "Codai Academy",
+        "area": "FullStack",
+        "modalidade": "presencial",
+        "salario": 1500,
+        "publicadaEm": "2026-11-15"
+    }
+]
